@@ -1,0 +1,11 @@
+import{c as s,j as e,L as t,B as a}from"./index-DUWAWEQD.js";import{m as r}from"./proxy-CkBF0t0y.js";/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const c=[["path",{d:"m12 19-7-7 7-7",key:"1l729n"}],["path",{d:"M19 12H5",key:"x3x0zl"}]],l=s("arrow-left",c);/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const i=[["path",{d:"M12 17h.01",key:"p32p05"}],["path",{d:"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z",key:"1mlx9k"}],["path",{d:"M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3",key:"mhlwft"}]],d=s("file-question",i);function h(){return e.jsx("div",{className:"min-h-[70vh] flex items-center justify-center px-4 bg-background",children:e.jsxs(r.div,{initial:{opacity:0,y:20},animate:{opacity:1,y:0},transition:{duration:.5},className:"text-center max-w-md",children:[e.jsx("div",{className:"w-20 h-20 rounded-full bg-accent/10 flex items-center justify-center mx-auto mb-6",children:e.jsx(d,{size:40,className:"text-accent"})}),e.jsx("h1",{className:"font-display font-bold text-6xl text-foreground mb-2",children:"404"}),e.jsx("h2",{className:"font-display font-bold text-xl text-foreground mb-3",children:"Page not found"}),e.jsx("p",{className:"text-muted-foreground mb-8 leading-relaxed",children:"The page you're looking for doesn't exist or may have been moved."}),e.jsxs("div",{className:"flex gap-3 justify-center flex-wrap",children:[e.jsx(t,{to:"/",children:e.jsxs(a,{className:"bg-accent text-accent-foreground hover:bg-accent/90 font-semibold",children:[e.jsx(l,{size:16,className:"mr-2"}),"Back to Home"]})}),e.jsx(t,{to:"/contact",children:e.jsx(a,{variant:"outline",children:"Contact Us"})})]}),e.jsx("div",{className:"mt-10 grid grid-cols-2 sm:grid-cols-4 gap-3 text-sm",children:[{label:"Services",to:"/services"},{label:"Calculators",to:"/calculators"},{label:"Consultation",to:"/consultation"},{label:"FAQ",to:"/faq"}].map(({label:n,to:o})=>e.jsx(t,{to:o,className:"px-3 py-2 rounded-lg border border-border text-muted-foreground hover:text-accent hover:border-accent/40 transition-smooth text-center",children:n},o))})]})})}export{h as NotFoundPage};
