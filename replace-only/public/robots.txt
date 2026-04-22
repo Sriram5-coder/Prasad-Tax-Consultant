@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /admin
-Disallow: /payment
-
-Sitemap: https://prasad-tax-consultant.onrender.com/sitemap.xml
